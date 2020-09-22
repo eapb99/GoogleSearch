@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Advanced search</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <header style="background:#f1f1f1 ; height: 60px ; text-align: right;">
+    <p  style="font-size: 1.5em; margin-right: 30px;">
+      <a href="index.html" target="blank">
+      <b>  <span style='color: blue'>G</span>
+      <span style='color: red'>o</span>
+      <span style='color: yellow'>o</span>
+      <span style='color: blue'>g</span>
+      <span style='color: green'>l</span>
+      <span style='color: red'>e</span>
+    </b>
+  </a>
+    </p>
+  </header>
+  <body>
+    <div class="row" style="margin-left: 30px; height: 36px; color: red; font-size: 20px; margin-top: 20px;">
+      <label>  Busqueda avanzada</label>
+    </div>
+    <hr>
+    <p style="margin-left: 30px;">Mostar paginas que <br> 
+    contengan...</p>
+
+    <div style="margin-left: 30px;">
+      <form method="GET" action="https://google.com/search" target="blank" >
+        <div class="form-group row">
+          <label class="col-md-2 col-form-label" style="font-size: 13px;">todas estas palabras:</label>
+          <div class="col-md-4">
+            <input name="as_q" type="text" class="form-control">
+          </div>
+          <div class="col-md-3">
+            <p style="font-size:small; "> Ingresa las palabras importantes: Terrier ratonero tricolor</p>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-md-2 col-form-label" style="font-size: 13px;">esta palabra o frase exactas:</label>
+          <div class="col-md-4">
+            <input autofocus="autofocus" value="" type="text" name="as_epq" class="form-control">
+          </div>
+          <div class="col-md-3">
+            <p style="font-size:small; "> Ingresa las palabras exactas entre comillas: "Terrier ratonero" .</p>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-md-2 col-form-label" style="font-size: 13px;">cualquiera de estas palabras:</label>
+          <div class="col-md-4">
+            <input autofocus="autofocus" class="form-control" type="text" name="as_oq">
+          </div>
+          <div class="col-md-3">
+            <p style="font-size:small; "> Ingresa OR entre las palabras que desees: En miniatura OR estándar.</p>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-md-2 col-form-label" style="font-size: 13px;">ninguna de estas palabras:</label>
+          <div class="col-md-4">
+            <input class="form-control" value="" id="t2dX1c" name="as_eq" type="text">
+          </div>
+          <div class="col-md-3">
+            <p style="font-size:small; "> Ingresa un signo menos justo delante de las palabras que no deseas que aparezcan: -Roedor, -"Jack Russell" .       </p>
+        </div>
+    </form>
+    <input class="btn btn-primary" type="submit" style="width:100px; height:40px;">  
+    </div>
+  
+    
+  </body>
+</html>
